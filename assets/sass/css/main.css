@@ -98,7 +98,7 @@ body {
   width: 100%;
   color: #fff; }
   .flex-container .sectionL .imgLu .fondo-oscuro {
-    background-color: rgba(21, 19, 11, 0.72);
+    background-color: rgba(64, 59, 38, 0.72);
     height: 300px;
     width: 100%; }
 .flex-container .sectionL .imgLu1 {
@@ -109,7 +109,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
   .flex-container .sectionL .imgLu1 .fondo-oscuro1 {
-    background-color: rgba(21, 19, 11, 0.72);
+    background-color: rgba(64, 59, 38, 0.72);
     height: 300px;
     width: 100%; }
     .flex-container .sectionL .imgLu1 .fondo-oscuro1 .color .waves-effect {
@@ -133,5 +133,7 @@ body {
     background-color: rgba(0, 0, 0, 0.94);
     height: 300px;
     width: 100%; }
+    .flex-container .sectionL .imgLu1 .fondo-oscurito .icon .icon-mail {
+      color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
