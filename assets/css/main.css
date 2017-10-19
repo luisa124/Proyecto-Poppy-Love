@@ -1,12 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo");
+* {
+  outline: 1px solid red; }
+
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  width: 100%; }
 
 #portada {
   background-image: url("../img/banner.jpg");
-  width: 100%;
+  background-position: bottom;
+  width: auto;
   background-size: cover;
   height: 700px; }
+
+nav a.button-collapse {
+  height: 64px;
+  line-height: 64px;
+  float: right; }
+
+.nav-texto {
+  float: right; }
+
+#slide-out {
+  width: 200px !important; }
 
 #texto__1 {
   height: 400px;
@@ -27,8 +44,9 @@ body {
 
 #texto__2 {
   position: relative;
-  top: 90px;
-  color: white; }
+  top: 50px;
+  color: white;
+  height: 200px; }
 
 #texto__2 hr {
   border: 1px solid #AFC6C9;
@@ -42,36 +60,36 @@ body {
   position: relative;
   top: 40px; }
 
+h5 {
+  width: 400px; }
+
 #seccion__3--row1 {
-  background-color: #2b343d;
+  background-color: #5E6866;
   width: 100%;
-  height: 282px;
-  margin-bottom: 0; }
-  #seccion__3--row1 img {
-    position: relative;
-    right: 10px; }
+  margin-bottom: 0;
+  color: white;
+  font-family: 'Baloo', cursive; }
   #seccion__3--row1 h6 {
     font-size: 20px;
     line-height: 28px;
     color: #A2B7BA; }
 
+#row1--imagen1 {
+  padding: 0; }
+
 #seccion__3--row2 {
-  height: 300px; }
-  #seccion__3--row2 img {
-    position: absolute;
-    right: 10px; }
+  background-color: #192021;
+  width: 100%;
+  margin-bottom: 0;
+  color: white;
+  font-family: 'Baloo', cursive; }
 
 #seccion__3--row3 {
   background-color: #2b343d;
   width: 100%;
   height: 282px;
-  margin-bottom: 0; }
-  #seccion__3--row3 img {
-    position: relative;
-    right: 10px; }
-  #seccion__3--row3 h6 {
-    font-size: 20px;
-    line-height: 28px;
-    color: #A2B7BA; }
+  margin-bottom: 0;
+  color: white;
+  font-family: 'Baloo', cursive; }
 
 /*# sourceMappingURL=main.css.map */
