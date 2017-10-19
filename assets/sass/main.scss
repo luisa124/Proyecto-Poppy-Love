@@ -276,16 +276,17 @@ body {
                 margin-top: 4%;
             }
             .fondo-oscuro {
-                background-color: rgba(255, 255, 255, 0.94);
+                background-color: rgba(256, 255, 255, 0.94);
                 height: 300px;
                 width: 100%;
-                    .icon-mail{
-                        color: $white;
-        
                 }
+            .icon-mail{
+                        color: $white;
+                        margin-left: 30%;
+                        margin-top: 5%;
+                    }
             }
         }
-    }
 
-}
+    }
 }
