@@ -129,11 +129,11 @@ body {
     width: 50%; }
   .flex-container .sectionL .imgLu1 .color {
     margin-top: 4%; }
-  .flex-container .sectionL .imgLu1 .fondo-oscurito {
-    background-color: rgba(0, 0, 0, 0.94);
+  .flex-container .sectionL .imgLu1 .fondo-oscuro {
+    background-color: rgba(255, 255, 255, 0.94);
     height: 300px;
     width: 100%; }
-    .flex-container .sectionL .imgLu1 .fondo-oscurito .icon .icon-mail {
+    .flex-container .sectionL .imgLu1 .fondo-oscuro .icon-mail {
       color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
