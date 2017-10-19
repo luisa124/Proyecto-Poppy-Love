@@ -1,29 +1,16 @@
+
 *{
-	outline: 1px solid red;
+	// outline: 1px solid red;
 }
 body {
 	margin: 0;
 	padding: 0;
-    width: 100%;
 }
 #portada{
 	background-image: url("../img/banner.jpg");		
-    background-position:bottom;
-	width: auto;
+	width: 100%;
 	background-size: cover;		
 	height: 700px;
-
-}
-nav a.button-collapse {
-    height: 64px;
-    line-height: 64px;
-    float: right;
-}
-.nav-texto{
-    float: right;
-}
-#slide-out{
-    width: 200px !important;
 }
 #texto__1 {
 	height: 400px;
@@ -41,7 +28,6 @@ nav a.button-collapse {
     	line-height: 28px;
     }
 }
-
 // -------------------------------------
 #seccion__2{
 	background-color: #21b2a6;
@@ -50,9 +36,8 @@ nav a.button-collapse {
 }
 #texto__2 {
 	position: relative;
-    top: 50px;
+    top: 90px;
     color: white;
-    height: 200px;
 }
 #texto__2{
     hr{
@@ -71,65 +56,44 @@ nav a.button-collapse {
     }
 }
 // ------------------------------------------
-h5 {
-    width: 400px;
-}
 #seccion__3--row1{
-	background-color: #5E6866;
+	background-color: #2b343d;
 	width: 100%;
-    margin-bottom: 0;
-    color: white;
-    font-family: 'Baloo', cursive;
-    
-
+	height: 282px;
+    margin-bottom: 0; 
+	img{
+    position: relative;
+    right: 10px;
+    }
     h6{
     	font-size: 20px;
     	line-height: 28px;
     	color: #A2B7BA;
     }   
 }
-#row1--imagen1{
-    padding: 0;
-    }
 #seccion__3--row2{
-    background-color: #192021;
-    width: 100%;
-    margin-bottom: 0;
-    // margin-top: -7px;
-    color: white;
-    font-family: 'Baloo', cursive;
-    
-    // #texto{
-    //   background-color: #636B6C;
-    //   width: 100%;
-    //   height: 300px;
-    // }
-    
-    // #imagen{
+    // background-color: #636B6C;
+    // width: 100%;
+    height: 300px;
+    // margin-bottom: 0; 
     // position: relative;
-    // right: 10px;
-    // }  
+    //     right: 150px;
+    img{
+    position: absolute;
+    right: 10px;
+    }
     // h6{
-    //     width: 300px;
-    // }
+    //     font-size: 20px;
+    //     line-height: 28px;
+    //     color: #A2B7BA;
+        
+    // }   
 }
 #seccion__3--row3{
     background-color: #2b343d;
     width: 100%;
     height: 282px;
     margin-bottom: 0; 
-    color: white;
-    font-family: 'Baloo', cursive;
-    // img{
-    // position: relative;
-    // right: 10px;
-    // }
-    // h6{
-    //     font-size: 20px;
-    //     line-height: 28px;
-    //     color: #A2B7BA;
-    // }   
-
     img{
     position: relative;
     right: 10px;
@@ -138,9 +102,6 @@ h5 {
         font-size: 20px;
         line-height: 28px;
         color: #A2B7BA;
-
-    }  
-
     }   
 
 //INICIO DE ESTILO DE LUISA
@@ -327,5 +288,4 @@ body {
     }
 
 }
-
 }
